@@ -22,6 +22,7 @@ function App() {
                 <input type="text" placeholder='Имя'></input>
                 <input type="text" placeholder='Телефон'></input>
                 <input type="text" placeholder='Возраст ребенка'></input>
+                <button>Оставить заявку</button>
             </form>
         </div>
     );

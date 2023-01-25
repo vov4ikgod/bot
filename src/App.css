@@ -36,7 +36,23 @@ input {
 }
 
 .title {
+    font-family: Unbounded;
+    font-size: 26px;
     font-weight: 400;
     margin-bottom: 25px;
-    color: #2e363e;
+    color: #2b2d30;
+}
+
+button {
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: Unbounded;
+    border: solid #727272 1px;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
 }
