@@ -13,3 +13,29 @@ body {
 .logo {
     width: 100px;
 }
+
+form {
+    margin-top: 50px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #F2F252;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    border-radius: 15px;
+    border: solid #727272 1px;
+    padding: 10px;
+    font-family: Unbounded;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-weight: 400;
+    margin-bottom: 25px;
+}
