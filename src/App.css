@@ -6,12 +6,12 @@
 
 body {
     background: var(--tg-theme-bg-color);
-    color: var(--tg-theme-text-color);
     padding: 20px;
 }
 
 .logo {
-    width: 100px;
+    width: 75px;
+    border-radius: 100px;
 }
 
 form {
@@ -38,4 +38,5 @@ input {
 .title {
     font-weight: 400;
     margin-bottom: 25px;
+    color: #2e363e;
 }
