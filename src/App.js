@@ -1,6 +1,6 @@
 import {useEffect} from 'react';
 import './App.css';
-const tg = window.Telegram.WebApp
+const tg = window.Telegram.WebApp;
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
 
     return (
         <div className="App">
-            <button onClick={onClose()}>Закрыть</button>
+            <img src={'.//assets/logo.jpg'} className={'logo'}/>
         </div>
     );
 }

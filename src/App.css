@@ -7,4 +7,9 @@
 body {
     background: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
 }
